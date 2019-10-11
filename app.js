@@ -9,4 +9,10 @@ admin.database.enableLogging(true);
 
 const db = admin.database();
 
-const invoiceRef = db.ref('/test');
+const ref = db.ref('users');
+
+ref.orderByKey().on("child_added", function(snapshot) {
+    console.log(snapshot.key);
+  });
+  
+ 
