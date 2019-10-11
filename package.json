@@ -1,0 +1,22 @@
+{
+  "name": "elearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajrullah/elearning.git"
+  },
+  "author": "FS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajrullah/elearning/issues"
+  },
+  "homepage": "https://github.com/fajrullah/elearning#readme",
+  "dependencies": {
+    "firebase-admin": "^8.6.0"
+  }
+}
