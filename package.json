@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/fajrullah/elearning#readme",
   "dependencies": {
-    "firebase-admin": "^8.6.0"
+    "firebase-admin": "^11.4.1"
   }
 }
